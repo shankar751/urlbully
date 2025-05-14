@@ -6,6 +6,9 @@
 
 [![AUrlBully by THUGSred](static/images/urlbully-image.png "UrlBully")](https://github.com/kawaiipantsu/urlbully)
 
+
+# PLEASE BE AWARE - It's in early stages!
+
 # Table of Contents
 
  * [Features](#features)
