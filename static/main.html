@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>URL Bully by THUGSred</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+  </head>
+  <body>
+
+    <!-- MAke a header that has logo left side, and rest right aligned -->
+    <header>
+      <div class="logobox">
+        <img src="./images/urlbully-image.png" class="logo"/>
+      </div>
+      <div class="header-right">
+        <div class="cpu-graph graph">
+          <div class="graph-bar" id="cpu-graph-bar"></div>
+          <div class="graph-label" id="cpu-graph-label">CPU Usage</div>
+        </div>
+        <div class="mem-graph graph">
+          <div class="graph-bar" id="mem-graph-bar"></div>
+          <div class="graph-label" id="mem-graph-label">Memory Usage</div>
+        </div>
+        <div class="thread-graph graph">
+          <div class="graph-bar" id="thread-graph-bar">0</div>
+          <div class="graph-label" id="thread-graph-label">Thread Count</div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="urlconfig">
+        <fieldset>
+          <legend>URL Settings</legend>
+    
+        </fieldset>  
+      </div>
+      <div class="httpconfig">
+        <fieldset>
+          <legend>HTTP Settings</legend>
+    
+        </fieldset>  
+      </div>
+      <div class="payloadconfig">
+        <fieldset>
+          <legend>Payload Settings</legend>
+    
+        </fieldset>  
+      </div>
+    </main>
+
+    <footer>
+      <div class="roundarea">
+        <div class="sendleft">System Idle</div>
+        <div class="sendright">1.0.0 # Node.js <span id="node-version"></span> | Chromium <span id="chrome-version"></span> | Electron <span id="electron-version"></span></div>
+        </div>
+    </footer>
+
+    <script src="./js/renderer.js"></script>
+  </body>
+</html>

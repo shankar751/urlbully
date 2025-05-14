@@ -1,0 +1,200 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: SF Pro Display, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    background-color: #282934;
+    color: #eeefeb;
+}
+
+header {
+    border-bottom: thin solid #00000020;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 175px;
+    padding: 10px;
+}
+
+.logobox {
+    border: thin solid #000000b3;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 10px;
+    width: 100%;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    box-shadow: inset 0px 0px 14px 0px rgba(226, 222, 222, 0.167);
+}
+
+.logo {
+    width: 140px;
+    height: 140px;
+    margin: -5px;
+}
+
+.header-right {
+    float: right;
+    width: calc(100% - 160px);
+    height: 150px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+main {
+    position: absolute;
+    left: 0;
+    top: 165px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 1px;
+}
+
+fieldset {
+    border: thin solid #00000020;
+    border-radius: 10px;
+    background-color: #33343e;
+    color: #eeefeb81;
+    padding: 10px;
+    height: 100%;
+    box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,1);
+}
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #eeefebe5;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+footer {
+    border-top: thin solid #00000020;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    height: 41px;
+}
+.roundarea {
+    font-size: 0.7em;
+    font-weight: bold;
+    height: 26px;
+    border-radius: 5px;
+    background-color: #33343e;
+    color: #eeefeb81;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,1);
+}
+.sendleft {
+    float: left;
+}
+.sendright {
+    float: right;
+}
+
+.graph {
+    border-radius: 10px;
+    background-color: #00000045;
+    padding-top: 12px;
+    padding-left: 1px;
+    padding-right: 8px;
+    
+}
+
+.cpu-graph {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border: thin solid #00000093;
+    width: 200px;
+    height: 50px;
+}
+
+.mem-graph {
+    position: absolute;
+    right: 5px;
+    top: 58px;
+    border: thin solid #00000093;
+    width: 200px;
+    height: 50px;
+}
+
+.thread-graph {
+    position: absolute;
+    right: 5px;
+    top: 112px;
+    border: thin solid #00000093;
+    width: 200px;
+    height: 50px;
+}
+.graph-bar {
+    border: thin solid #cac3c393;
+    background-color: #ff000035;
+    border-radius: 5px;
+    align-content: center;
+    text-align: center;
+    padding-left: 5px;
+    height: 25px;
+    width: 0%;
+    transition: width 2s linear;
+}
+@keyframes loadProgressBar {
+   0% {width: 0;}
+ 100% {width: 100%;}
+}
+.graph-label {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #eeefeb;
+    font-size: 0.5em;
+}
+
+.payloadconfig {
+    position: absolute;
+    left: 0px;
+    top: 160px;
+    width: calc(100% - 10px);
+    height: 190px;
+}
+
+.urlconfig {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    width: 610px;
+    height: 150px;
+}
+
+.httpconfig {
+    position: absolute;
+    left: 610px;
+    top: 10px;
+    width: 310px;
+    height: 150px;
+}

@@ -1,0 +1,49 @@
+{
+  "name": "urlbully",
+  "version": "1.0.0",
+  "description": "URL Bully is a simple tool to bully a webserver on the URL level, you could call it Denial of Service attack, or bruteforcing strategies. But basically it's just a tool to bully a webserver and irritate the owner. Sometimes the most simple approch can yield victims/targets to deescalate their security or break their application.",
+  "main": "app.js",
+  "keywords": [
+    "url",
+    "bully",
+    "web",
+    "server",
+    "attack",
+    "bruteforce"
+  ],
+  "scripts": {
+    "start": "electron-forge start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kawaiipantsu/urlbully.git"
+  },
+  "author": "Kawaiipantsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kawaiipantsu/urlbully/issues"
+  },
+  "homepage": "https://github.com/kawaiipantsu/urlbully#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.8.1",
+    "@electron-forge/maker-deb": "^7.8.1",
+    "@electron-forge/maker-rpm": "^7.8.1",
+    "@electron-forge/maker-squirrel": "^7.8.1",
+    "@electron-forge/maker-zip": "^7.8.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.8.1",
+    "@electron-forge/plugin-fuses": "^7.8.1",
+    "@electron/fuses": "^1.8.0",
+    "about-window": "^1.15.2",
+    "electron": "^36.2.0",
+    "electron-store": "^10.0.1",
+    "os": "^0.1.2",
+    "os-utils": "^0.0.14",
+    "path": "^0.12.7"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
+  }
+}
