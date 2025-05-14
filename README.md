@@ -18,7 +18,10 @@ Everything i need it to do :D
 
 ## Screenshot
 
-Wait for it!
+This is just a preview of how the base-app looks at the momment but should give a good indication of how the final tool will look.
+
+<img width="930" alt="image" src="https://github.com/user-attachments/assets/04eda017-05c7-4c45-aa87-3e0682f25d48" />
+
 
 ### THUGSred Community
 
